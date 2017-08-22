@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ACM RecSys Challenge 2018">
+    <meta name="keywords" content="Recommender Systems, ACM RecSys Challenge, Music Recommendation, Automatic Playlist Continuation, Spotify">
+    <meta name="author" content="RecSysChallenge 2018 Organizers">
+    <link rel="icon" href="http://recsys.acm.org/wp-content/themes/primo-wp/favicon.ico">
+
+    <title>ACM RecSys Challenge 2018</title>
+
+    <!-- CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/ekko-lightbox.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+          
+    <div id="top" class="container">
+      <div class="header clearfix" style="padding-bottom:5px;">
+        <span style="float:left; padding-right: 15px;">
+          <img src="./images/logo.png" alt="logo" width="50"/>
+        </span>
+        <span style="float:right; padding-right: 15px;">
+          <a style="text-decoration: none;" href="https://github.com/recsyschallenge/2018" title="Github">
+            <img width="24" src="./images/ico-github.svg" alt=""/>
+          </a>
+          <a style="text-decoration: none;" href="https://twitter.com/recsyschallenge" title="Twitter">
+            <img width="24" src="./images/ico-twitter.svg" alt=""/>
+          </a>
+        </span>
+        <h3><a href="http://2018.recsyschallenge.com" style="text-decoration:none;">ACM RecSys Challenge 2018</a></h3>
+      <div style="margin-top:30px;font-family: Georgia,Helvetica,Arial,sans-serif">
+        <ul class="nav nav-pills navbar-nav navbar-left">
+
+<!--
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#scenario">Scenario</a></li>
+                <li><a href="#challenges">Challenges</a></li>
+                <li><a href="#evaluation">Evaluation</a></li>
+                <li><a href="#dataset">Dataset</a></li>
+                <li><a href="#baseline">Baseline</a>
+          </ul>
+            </li>-->
+<!--
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Participate <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#participation">Participation</a></li>
+                <li><a href="#leaderboard">Leaderboard</a>
+                <li><a href="#rules">Rules</a></li>
+                <li><a href="#questions">Ask questions</a></li>
+                <li><a href="#prizes">Prizes</a></li>
+              </ul>
+            </li>-->
+            <li role="presentation"><a href="#about">About</a></li>
+            <li role="presentation"><a href="#participation">Participation</a></li>
+            <li role="presentation"><a href="#dates">Timeline</a></li>
+            <!--<li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Workshop <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#program">Workshop program</a></li>
+                <li><a href="#workshop">Paper submissions</a></li>
+                <li><a href="#organizers">Organizers</a></li>
+              </ul>
+            </li>-->
+            <li role="presentation"><a href="https://recsys.acm.org/recsys18/" style="color:lightgray;" target="\_blank">RecSys conference</a></li>
+        </ul>
+      </div>
+      </div>
+
+
+
+      <!-- ABOUT -->
+      <div id="about" class="lead">
+        <h1>About</h1>
+	<p>
+	The RecSys Challenge 2018 will be organized by <a href="https://www.spotify.com/" taget="\_blank">Spotify</a>, <a href="http://www.umass.edu/" taget="\_blank">The University of Massachusetts, Amherst</a>, and <a href="http://www.jku.at/content" taget="\_blank">Johannes Kepler University, Linz</a>. Spotify is an online music streaming service with over 140 million active users and over 30 million tracks. One of its popular features is the ability to create playlists, and the service currently hosts over 2 billion playlists. The ability to suggest appropriate songs to the end of a playlist can increase the engagement of users by making playlist creation easier, as well as extending listening beyond the end of existing playlists.
+	</p>
+	<p>
+	This year’s challenge focuses on music recommendation, specifically the challenge of <strong>automatic playlist continuation</strong>. As part of this challenge, Spotify will be releasing a new public dataset of playlists, consisting of a large number of playlist titles and associated track listings. The evaluation set will contain a set of playlists where a number of the tracks have been removed, the task will be to predict the missing tracks in those playlists.
+	</p>
+	<p>
+	A detailed description of the challenge will be available on this website (stay tuned!). Accepted contributions will be presented during the RecSys Challenge Workshop in 2018.
+	</p>
+      </div>
+
+      <div id="participation" class="lead">
+        <h1>Participation <sup><a class="dropup" style="font-size:10px;" href="#top"><span class="caret"></span> top</a></sup></h1>
+        <p>To be announced!</p>
+      </div>
+
+      
+      <!-- DATES -->
+
+      <div id="dates">
+        <h1>Timeline <sup><a class="dropup" style="font-size:10px;" href="#top"><span class="caret"></span> top</a></sup></h1>
+	<p> To be announced! </p>
+        <!--<table class="table table-striped lead">
+          <thead>
+            <th>When?</th>
+            <th>What?</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Beginning of March</td>
+              <td><strong>RecSys challenge starts:</strong>
+                <ul>
+                  <li>RecSys challenge starts with <i>offline evaluation</i></li>
+                  <li>Submission system will be available via <a href="https://recsys.xing.com/">recsys.xing.com</a> (currently offline)</li>
+                  <li>Maximum number of submissions per day: 20</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>April 16th (23:59 Hawaiian time)</td>
+              <td>
+                <strong>Offline evaluation ends:</strong>  
+                <ul>
+                  <li>Based on the overall leaderboard of the <i>offline challenge</i>, the top teams (probably top 20) are asked to join the <i>online challenge</i></li>
+                  <li>Top teams get access to API of the online challenge. </li>
+                  <li>The submission of the offline challenge will continue to be open</li>
+                  <li>After this deadline there will be a possibility to join the online challenge for teams who achieve awesome scores</li>
+                </ul>
+</td>
+            </tr>
+            <tr>
+              <td>May 1st</td>
+              <td><strong>Online challenge starts:</strong>
+                <ul>
+                  <li>Every day, new target items will be released for which the teams are supposed to compute recommendations, i.e. identify users that may be interested in these items.</li>
+                  <li>Teams download the new target list via API, compute recommendations and submit their solutions via API.</li>
+                </ul>
+                Teams can script their recommender systems to regulalry pull from the API to check for updates.
+              </td>
+            </tr>
+            <tr>
+              <td>June 4th (23:59 Hawaiian time)</td>
+              <td><strong>Online evaluation ends:</strong>
+                <ul>
+                  <li>Last day of online evaluation</li>
+                  <li>Submission system closes</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>June 12th</td>
+              <td>
+                <ul>
+                  <li>Official results will be announced</li>
+                  <li>Winner of the challenge = winner of the online challenge</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>June 18th</td>
+              <td><strong>Paper submission deadline</strong> for RecSys Challenge workshop</td>
+            </tr>
+            <tr>
+              <td>July 3rd</td>
+              <td>Notifications about paper acceptance</td>
+            </tr>
+            <tr>
+              <td>July 17th</td>
+              <td>Deadline for camera-ready papers</td>
+            </tr>
+            <tr>
+              <td>August 27th-31st</td>
+              <td>Workshop will take place as part of the <a href="https://recsys.acm.org/recsys17/">RecSys conference</a> in <a href="https://recsys.acm.org/recsys17/location/">Como, Italy</a>.</td>
+            </tr>
+          </tbody>
+
+        </table>-->
+
+      </div>
+
+
+        <h3 id="program-committee">Program Committee <sup><a class="dropup" style="font-size:10px;" href="#top"><span class="caret"></span> top</a></sup></h3>
+        <div class="lead" >TBC.</div>
+      <div>
+
+
+     <!-- ORGANIZERS -->
+
+      <div id="organizers" class="lead">
+        <h3>Organizers <sup><a class="dropup" style="font-size:10px;" href="#top"><span class="caret"></span> top</a></sup></h3>
+        <ul>
+	<li><a href="https://about.me/chingweichen">Ching-Wei Chen</a>, <a href="https://www.spotify.com/">Spotify</a>, New York, USA</li>
+          <li><a href="http://www.cp.jku.at/people/schedl/">Markus Schedl</a>, <a href="http://www.jku.at/content">Johannes Kepler University</a>, Linz, Austria</li>
+          <li><a href="http://cs.umass.edu/~zamani/">Hamed Zamani</a>, <a href="http://www.umass.edu/">University of Massachusetts</a>, Amherst, USA </li>
+        </ul>
+        
+        <h3>Advisors <sup><a class="dropup" style="font-size:10px;" href="#top"><span class="caret"></span> top</a></sup></h3>
+        <ul>
+	  <li><a href="http://ydeldjoo.me/">Yashar Deldjoo</a>, <a href="http://recsys.deib.polimi.it/">Politecnico Milano</a></li>
+          <li><a href="https://www.linkedin.com/in/mehdielahi/">Mehdi Elahi</a>, <a href="https://www.unibz.it/en/">Free University of Bozen-Bolzano</a> </li>
+        </ul>
+      </div>
+
+      <hr/>
+      <div style="text-align:center">
+        <a style="text-decoration: none;" href="https://github.com/recsyschallenge/2018" title="Github">
+            <img width="24" src="./images/ico-github.svg" alt="Github"/>
+          </a>
+        <a style="text-decoration: none;" href="https://twitter.com/recsyschallenge" title="Twitter">
+          <img width="24" src="./images/ico-twitter.svg" alt="Twitter"/>
+        </a>
+
+      </div>
+      <div>
+
+      </div>
+
+    </div><!-- /.container -->
+
+
+
+
+
+    <!-- JavaScript -->
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/ekko-lightbox.min.js"></script>
+    <script type="text/javascript">
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+    </script>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-70716117-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
